@@ -1,0 +1,404 @@
+****************** EXPO ACCOUNTS ******************
+
+
+USERNAME : Saajid4262
+PASSWORD : Sandani4262@
+MAIL     : 16cse05@gmail.com
+
+USERNAME : SandaniBasha
+PASSWORD : Sandani784262@
+MAIL     : shaiksandani784262@gmail.com
+
+************** JKS CERTIFICATE PATH ******************
+
+D:\PASTOR_MIGRATION\APKS\aab\android.keystore
+
+keytool -list -v -keystore D:\PASTOR_MIGRATION\APKS\aab\android.keystore
+
+password : android
+key password : android
+alias : androidkey
+
+NOTE alias has to paste 2 times if you are using cli
+
+
+BEFORE CHANGING ACCOUNT USE BELOW COMMANDS TO REBUILD PROJECT WITH NEW ACCOUNT
+
+
+remove below part from app.json
+
+"extra": {
+      "eas": {
+        "projectId": "*********************"
+      }
+    }
+
+npx expo logout
+
+expo update
+
+npx expo login
+
+npx expo-doctor 
+
+npx expo install --fix
+
+after login if any old JKS is there in your project update that on website
+
+https://expo.dev/accounts/saajid4262/projects/push/credentials
+
+https://expo.dev/accounts/saajid4262/projects/push/credentials/android/com.sandanibasha.push
+
+----------- To do above operation through cli check last of this file for logs
+
+*****************************************************************************************
+
+https://api.whatsapp.com/send?text=&phone=919441179557
+
+REACT NATIVE EXPO PROJECT 
+
+npx create-expo-app AwesomeProject
+
+cd AwesomeProject
+npx expo start
+
+
+
+https://reactnative.dev/docs/environment-setup?guide=quickstart
+
+
+
+
+step 1 - npm  instal -g eas-cli
+step 2 - eas build -p android
+step 3 -  https://docs.expo.dev/build-reference/apk/
+STEP 4 - eas.json
+
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
+
+step 5 - eas build -p android --profile preview
+
+https://www.youtube.com/watch?v=9Y-jir-RlKQ
+
+
+npm run android
+
+npm run web
+
+npx expo start
+
+
+step 6 : Playstore Build
+
+Before updating in playstore chnage the version code & version to +1 of current number in app.json
+
+Note : chnage the apiConfig.js file Domain also to pastor url
+
+----- eas build -p android
+
+----CHANGE PACKAGE NAME
+
+change the android package name & use below commands to reflect
+
+"package": "com.Pastor_Rajesh_Ipc"
+
+npx expo install
+
+npx expo start -c
+
+
+
+---configure 
+
+D:\PASTOR_MIGRATION\APKS\aab\android.keystore
+
+keytool -list -v -keystore D:\PASTOR_MIGRATION\APKS\aab\android.keystore
+
+androidkey
+
+expo credentials:manager
+
+eas build:configure
+
+eas build -p android
+
+expo fetch:android:keystore
+
+
+-------------GIT SUPPORT ------------------
+
+EXAMPLE : 
+
+git clone https://github.com/h87kg/NavigatorDemo.git
+cd NavigatorDemo
+npm install
+react-native start OR npx expo start
+
+
+-------------GIT SUPPORT ------------------
+
+
+
+----- JKS ------------------------
+
+
+keytool -list -v -keystore D:\PASTOR_MIGRATION\APKS\aab\android.keystore
+Enter keystore password:
+Keystore type: JKS
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: androidkey
+Creation date: 29-Jun-2018
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=shaiksandani59@gmail.com, O=AppInventor for Android, C=US
+Issuer: CN=shaiksandani59@gmail.com, O=AppInventor for Android, C=US
+Serial number: 132bb52f
+Valid from: Fri Jun 29 18:46:32 IST 2018 until: Tue Nov 14 18:46:32 IST 2045
+Certificate fingerprints:
+         SHA1: 32:83:E3:95:80:66:69:46:F6:9E:59:0D:32:EF:8C:95:E3:5F:0A:C1
+         SHA256: 55:2A:92:55:27:F6:A9:C9:EC:BD:0C:09:A7:EE:98:2A:04:06:E3:2D:F4:8E:EE:95:C7:FE:90:3E:6D:35:5C:ED
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: B2 5B BF B5 D2 83 65 70   7D 3B 32 2B A2 CC 55 32  .[....ep.;2+..U2
+0010: A2 F6 D5 57                                        ...W
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+--- JKS ---------------------------
+
+
+
+i want card images dynamically from airtable data base the details about airtable is
+
+api key : keyYOO6faAvGhHeTh
+
+BASE ID: apptvLuAYHxBAHLPI
+
+TABLE NAME: slider
+
+column names: images & links
+
+
+
+#sidebar
+
+https://www.youtube.com/watch?v=yaUmWjdXTrY&t=396s
+
+
+
+
+i want list dynamically from airtable data base the details about airtable is
+
+api key : keyYOO6faAvGhHeTh
+
+BASE ID: appT0HdObpxPQDzIv
+
+TABLE NAME: lyrics
+
+column names: Title & lyrics
+
+
+
+
+--Clean Chache
+
+
+npm start -- --reset-cache
+
+
+npx expo r -c
+
+
+npm start -- --reset-cache
+
+
+
+
+
+
+
+
+
+
+i want view list in react native expo dynamically from airtable data base the details about airtable is
+
+api key : keyYOO6faAvGhHeTh
+
+BASE ID: appTKUoj0LngWXz5U
+
+TABLE NAME: Music
+
+column names: tittle & audio_url
+
+show title on list name & audio url should navigate to other screen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://pastorrajeshipc.in/ReadLyric.php?id=1
+
+
+
+
+
+https://api.whatsapp.com/send?text=&phone=919441179557
+
+
+
+upi://pay?pa=shaik2110@paytm&pn=Shaik%20Sandani%20Basha&cu=INR&am=1
+
+logs
+
+basha
+bashaxxzczcSome text to be copied
+
+david@stylus.co.za
+basha
+
+
+PS C:\Users\SandaniBasha\WebstormProjects\first\drawer-navigation> eas whoami
+★ eas-cli@6.0.0 is now available.
+To upgrade, run npm install -g eas-cli.
+Proceeding with outdated version.
+
+saajid4262
+PS C:\Users\SandaniBasha\WebstormProjects\first\drawer-navigation> expo update
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│   The global expo-cli package has been deprecated.                        │
+│                                                                           │
+│   The new Expo CLI is now bundled in your project in the expo package.    │
+│   Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.        │
+│                                                                           │
+│   To use the local CLI instead (recommended in SDK 46 and higher), run:   │
+│   › npx expo <command>                                                    │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+Warning! Your git working tree is dirty.
+It's recommended to commit all your changes before proceeding, so you can revert the changes made by this command if necessary.
+
+√ Would you like to proceed? ... yes
+
+√ You are already using the latest SDK version. Do you want to run the update anyways? This may be useful to ensure that all of your packages are set to the correct version. ... yes
+
+√ Validated configuration.
+√ No additional changes necessary to app.json config.
+
+√ Updated known packages to compatible versions.
+√ Removed package-lock.json and deleted node_modules.
+√ Installed node_modules and rebuilt package-lock.json.
+× Failed to clear packager cache with error: Metro Bundler process exited with code 1
+√ Cleared packager cache.
+√ Validated project
+
+👏 Automated upgrade steps complete.
+...but this doesn't mean everything is done yet!
+
+✅ The following packages were updated:
+expo-av, expo-linear-gradient, expo-screen-orientation, expo-status-bar, expo-updates, @expo/vector-icons, react, react-native, @react-native-async-
+storage/async-storage, @react-native-community/slider, @react-native-community/viewpager, react-native-gesture-handler, react-native-reanimated, react-native-safe-area-context, react-native-screens, react-native-webview, @babel/core, expo
+
+🚨 The following packages were not updated. You should check the READMEs for those repositories to determine what version is compatible with your new set of packages:
+@react-buddy/ide-toolbox, @react-navigation/drawer, @react-navigation/native, @react-navigation/native-stack, @react-navigation/stack, axios, react-
+native-dialog, react-native-dots-pagination, react-native-elements, react-native-expandable-fab, react-native-modal, react-native-paper, react-native-swiper, react-native-vector-icons, react-native-youtube-iframe
+
+Please refer to the release notes for information on any further required steps to update and information about breaking changes:
+https://blog.expo.dev/expo-sdk-49-c6d398cdf740
+PS C:\Users\SandaniBasha\WebstormProjects\first\drawer-navigation> eas build -p android --profile preview        
+★ eas-cli@6.0.0 is now available.
+To upgrade, run npm install -g eas-cli.
+Proceeding with outdated version.
+
+Loaded "env" configuration for the "preview" profile: no environment variables specified. Learn more: https://docs.expo.dev/build-reference/variables/
+You don't have the required permissions to perform this operation.
+
+Entity not authorized: AccountEntity[acc58435-7c7b-4e61-b33d-30ba3e6ccd21] (viewer = RegularUserViewerContext[319b011f-8676-4ba7-9a6e-f604d6bb792a], action = READ, ruleIndex = -1)
+Request ID: b8b8f048-7ac5-4bb1-bf93-e81f676ad7ed
+    Error: GraphQL request failed.
+PS C:\Users\SandaniBasha\WebstormProjects\first\drawer-navigation> eas build -p android --profile preview
+★ eas-cli@6.0.0 is now available.
+To upgrade, run npm install -g eas-cli.
+Proceeding with outdated version.
+
+Loaded "env" configuration for the "preview" profile: no environment variables specified. Learn more: https://docs.expo.dev/build-reference/variables/
+EAS project not configured.
+√ Would you like to automatically create an EAS project for @saajid4262/drawer-navigation? ... yes
+√ Created @saajid4262/drawer-navigation: https://expo.dev/accounts/saajid4262/projects/drawer-navigation on Expo
+√ Linked local project to EAS project b4b968ca-6e1d-4f2e-bd41-67e7b179c9fc
+√ Using remote Android credentials (Expo server)
+√ Generate a new Android Keystore? ... no
+
+In this mode, we won't be able to make sure that your credentials are valid.
+Double check that you're uploading valid files for your app otherwise you may encounter strange errors!
+When building for IOS make sure you've created your App ID on the Apple Developer Portal, that your App ID
+is in app.json as `bundleIdentifier`, and that the provisioning profile you
+upload matches that Team ID and App ID.
+
+√ Path to the Keystore file. ... D:\PASTOR_MIGRATION\APKS\aab\android.keystore
+√ Keystore password ... *******
+? Key alias » androidkey
+√ Key alias ... androidkey
+√ Key password ... *******
+√ Created keystore
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+√ Uploaded to EAS 3s
+
+Build details: https://expo.dev/accounts/saajid4262/projects/drawer-navigation/builds/01067f3a-b83e-4436-b253-144707592b5e
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+  Build queued...
+
+Start builds sooner in the priority queue.
+Sign up for EAS Production or Enterprise at https://expo.dev/accounts/saajid4262/settings/subscriptions
+
+Waiting in Free tier queue
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■|
+
+\ Build in progress...
+
+
